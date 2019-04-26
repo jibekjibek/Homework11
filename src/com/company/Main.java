@@ -15,8 +15,16 @@ public class Main {
             System.out.println(name);
 
 
+            final String HELLO;
+            Scanner Name = new Scanner(System.in);
+            HELLO = "Hello, ";
+            System.out.print(HELLO);
+            System.out.print(Name.nextLine());
+            System.out.println("!");
 
         }
+
+
 }
 
 
